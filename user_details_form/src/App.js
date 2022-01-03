@@ -11,10 +11,29 @@ function App() {
     console.log(userList);
   };
 
+  const [isLoading, setIsLoading] = useState(false);
+
+  if (isLoading) {
+    return (
+      <div className="App">
+        {" "}
+        <h1>...loading </h1>{" "}
+      </div>
+    );
+  }
+
+  const handleData = () => {
+    setIsLoading(true);
+
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 2000);
+  };
+
   return (
     <div className="App">
       <UserForm getData={getData} />
-      <Table />
+      <Table userList={userList} />
     </div>
   );
 }
