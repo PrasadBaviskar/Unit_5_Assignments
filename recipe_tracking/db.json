@@ -5,6 +5,7 @@
       "ingredients": "",
       "timetocook": "10 m=Min",
       "img": "https://foodish-api.herokuapp.com/images/burger/burger8.jpg",
+      "cat": "nonveg",
       "id": 1
     },
     {
@@ -12,6 +13,7 @@
       "ingredients": "12",
       "timetocook": "12 hrs",
       "img": "https://foodish-api.herokuapp.com/images/biryani/biryani77.jpg",
+      "cat": "nonveg",
       "id": 3
     },
     {
@@ -19,6 +21,7 @@
       "ingredients": "1 2 3",
       "timetocook": "1.5 Hrs",
       "img": "https://foodish-api.herokuapp.com/images/biryani/biryani77.jpg",
+      "cat": "veg",
       "instructions": "lll",
       "id": 4
     },
@@ -26,6 +29,7 @@
       "title": "Chicken Biryani ",
       "timetocook": "1",
       "img": "https://foodish-api.herokuapp.com/images/biryani/biryani77.jpg",
+      "cat": "veg",
       "instructions": "1",
       "id": 5
     },
@@ -34,6 +38,7 @@
       "ingredients": "231",
       "timetocook": "3132",
       "img": "https://foodish-api.herokuapp.com/images/biryani/biryani77.jpg",
+      "cat": "veg",
       "instructions": "31",
       "id": 6
     }

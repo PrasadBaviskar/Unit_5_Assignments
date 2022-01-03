@@ -23,4 +23,9 @@ export const MyForm = styled.form`
     height: 50px;
   }
 
+  & > button {
+    height: 30px;
+    background-color:#630000;
+    color:white;
+  }
 `;

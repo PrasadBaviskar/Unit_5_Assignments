@@ -61,7 +61,7 @@ export const AddReceipe = () => {
           placeholder="Enter instruction"
           onChange={handleinput}
         />
-        <input className="sub_btn" type="submit" />
+        <button type="submit" className="sub_btn" > Add Receipe </button>
       </MyForm>
     </div>
   );
