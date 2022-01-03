@@ -6,17 +6,18 @@ import { Details } from "./Components/Details";
 import { useState } from "react";
 
 function App() {
-  const [details, setDetails] = useState({});
+  // const [details, setDetails] = useState({});
 
-  const showData = (r_data) => {
-    setDetails(r_data);
-  };
+  // const showData = (r_data) => {
+  //   console.log(r_data)
+  //   setDetails(r_data);
+  // };
 
   return (
     <div className="App">
       <AddReceipe />
       <Receipes />
-      <Details getdata={showData} details={details}/>
+      <Details />
     </div>
   );
 }

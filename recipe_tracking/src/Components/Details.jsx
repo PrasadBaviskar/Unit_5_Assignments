@@ -1,7 +1,7 @@
 
-export const Details = ({getdata, details}) => {
+export const Details = () => {
   
-  getdata()  
+  
 
   return (
     <div>
