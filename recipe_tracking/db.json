@@ -1,18 +1,41 @@
 {
   "data": [
     {
-      "title": "Title 1",
-      "ingredients": "1",
-      "timetocook": "1 hrs",
-      "img": "1",
+      "title": "Burger",
+      "ingredients": "",
+      "timetocook": "10 m=Min",
+      "img": "https://foodish-api.herokuapp.com/images/burger/burger8.jpg",
       "id": 1
     },
     {
       "title": "Title 12",
       "ingredients": "12",
       "timetocook": "12 hrs",
-      "img": "12",
+      "img": "https://foodish-api.herokuapp.com/images/biryani/biryani77.jpg",
       "id": 3
+    },
+    {
+      "title": "Veg Biryani",
+      "ingredients": "1 2 3",
+      "timetocook": "1.5 Hrs",
+      "img": "https://foodish-api.herokuapp.com/images/biryani/biryani77.jpg",
+      "instructions": "lll",
+      "id": 4
+    },
+    {
+      "title": "Chicken Biryani ",
+      "timetocook": "1",
+      "img": "https://foodish-api.herokuapp.com/images/biryani/biryani77.jpg",
+      "instructions": "1",
+      "id": 5
+    },
+    {
+      "title": "123",
+      "ingredients": "231",
+      "timetocook": "3132",
+      "img": "https://foodish-api.herokuapp.com/images/biryani/biryani77.jpg",
+      "instructions": "31",
+      "id": 6
     }
   ]
 }

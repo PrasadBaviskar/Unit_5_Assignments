@@ -57,7 +57,7 @@ export const AddReceipe = () => {
         <textarea
           rows={5}
           type="text"
-          name="title"
+          name="instructions"
           placeholder="Enter instruction"
           onChange={handleinput}
         />

@@ -12,9 +12,10 @@ export const Receipes = () => {
       <h3> Receipes </h3>
       {list.map((itm) => {
         return (
-          <div className="rec_div">
-            <p> Receipe  {itm.title} </p>
-            <p> Time To Cook {itm.timetocook} </p>
+          <div className="rec_div" key={itm.id}>
+            <img className="smallimg" src={itm.img} alt="" />
+            <h4> {itm.title}  <br />
+            Time To Cook : {itm.timetocook} </h4>
           </div>
         );
       })}
