@@ -20,15 +20,16 @@ export const AddReceipe = () => {
         "content-type": "application/json",
       },
     }).then(() => {
-      setData({});
+      setData("");
     });
   };
 
   return (
     <div>
       <h3> Add Receipe </h3>
-      <MyForm onClick={AddData} method="POST">
+      <MyForm onSubmit={AddData} method="POST">
         <input
+          required
           type="text"
           name="title"
           placeholder="Enter Title"
