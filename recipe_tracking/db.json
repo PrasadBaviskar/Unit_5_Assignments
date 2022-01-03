@@ -41,6 +41,29 @@
       "cat": "veg",
       "instructions": "31",
       "id": 6
+    },
+    {
+      "title": "Chicken Burger",
+      "ingredients": "Chicken Mayonis",
+      "timetocook": "15 Mins",
+      "img": "https://foodish-api.herokuapp.com/images/burger/burger8.jpg",
+      "id": 7
+    },
+    {
+      "title": "Veg Burger",
+      "ingredients": "123",
+      "timetocook": "10 Mins",
+      "img": "https://foodish-api.herokuapp.com/images/burger/burger8.jpg",
+      "instructions": "Demo",
+      "id": 8
+    },
+    {
+      "img": "https://foodish-api.herokuapp.com/images/biryani/biryani77.jpg",
+      "title": "Biryani",
+      "ingredients": ".......",
+      "timetocook": "............",
+      "instructions": ".......",
+      "id": 9
     }
   ]
 }

@@ -1,41 +1,35 @@
 import { useEffect, useState } from "react";
 
 export const Receipes = () => {
-  const [list, setList] = useState([]);
+  var [list, setList] = useState([]);
   const [details, setDetails] = useState({});
 
-  // useEffect(() => {
-  //   const filterData = (e) => {
-  //     let newlist = list.filter((itm) => {
-  //       return itm.cat === e.target.value;
-  //     });
-  //     console.log(newlist);
-  //     setList(newlist);
-  //   };
-  // }, [list]);
+  useEffect(() => {
+    fetch(`http://localhost:8000/data`)
+      .then((res) => res.json())
+      .then((data) => setList(data));
+  }, []);
+
+  const filterData = (e) => {
+    let nlist = list.filter((itm) => {
+      if (e.target.value === "all") {
+        return list;
+      }
+      return itm.cat === e.target.value;
+    });
+    console.log(nlist);
+    setList(nlist);
+  };
 
   const Alldetails = (data) => {
     setDetails(data);
   };
 
-  fetch(`http://localhost:8000/data`)
-    .then((res) => res.json())
-    .then((data) => setList(data));
-
   return (
     <div className="all_recs">
       <h3> Receipes </h3>
-      <select
-        className="slct"
-        onChange={(e) => {
-          let newlist = list.filter((itm) => {
-            return itm.cat === e.target.value;
-          });
-          console.log(newlist);
-          setList(newlist);
-        }}
-      >
-        <option> All </option>
+      <select className="slct" onChange={filterData}>
+        <option value="all"> All </option>
         <option value="veg"> Veg </option>
         <option value="nonveg"> Non Veg </option>
       </select>
