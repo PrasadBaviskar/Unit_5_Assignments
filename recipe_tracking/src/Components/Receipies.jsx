@@ -28,7 +28,7 @@ export const Receipes = () => {
   return (
     <div className="all_recs">
       <h3> Receipes </h3>
-      <select className="slct" onChange={filterData}>
+      <select className="slct" onChange={()=>filterData}>
         <option value="all"> All </option>
         <option value="veg"> Veg </option>
         <option value="nonveg"> Non Veg </option>
