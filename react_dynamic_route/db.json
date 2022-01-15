@@ -1,0 +1,104 @@
+{
+  "allProducts": [
+    {
+      "id": 1,
+      "prod_name": "Pork - Smoked Kassler",
+      "price": 655.78
+    },
+    {
+      "id": 2,
+      "prod_name": "Table Cloth 62x120 White",
+      "price": 793.1
+    },
+    {
+      "id": 3,
+      "prod_name": "Lobster - Base",
+      "price": 828.36
+    },
+    {
+      "id": 4,
+      "prod_name": "Shrimp - 100 / 200 Cold Water",
+      "price": 496.09
+    },
+    {
+      "id": 5,
+      "prod_name": "Arctic Char - Fillets",
+      "price": 935.01
+    },
+    {
+      "id": 6,
+      "prod_name": "Iced Tea Concentrate",
+      "price": 967.65
+    },
+    {
+      "id": 7,
+      "prod_name": "Sauce - White, Mix",
+      "price": 877.77
+    },
+    {
+      "id": 8,
+      "prod_name": "Rice - Brown",
+      "price": 329.38
+    },
+    {
+      "id": 9,
+      "prod_name": "Appetizer - Assorted Box",
+      "price": 532.87
+    },
+    {
+      "id": 10,
+      "prod_name": "Salmon - Whole, 4 - 6 Pounds",
+      "price": 175.07
+    },
+    {
+      "id": 11,
+      "prod_name": "Dikon",
+      "price": 516.67
+    },
+    {
+      "id": 12,
+      "prod_name": "Melon - Watermelon Yellow",
+      "price": 224.88
+    },
+    {
+      "id": 13,
+      "prod_name": "Cocoa Powder - Natural",
+      "price": 735.35
+    },
+    {
+      "id": 14,
+      "prod_name": "Juice - Lime",
+      "price": 458.45
+    },
+    {
+      "id": 15,
+      "prod_name": "Tomatoes - Plum, Canned",
+      "price": 404.69
+    },
+    {
+      "id": 16,
+      "prod_name": "Wine - Taylors Reserve",
+      "price": 797.2
+    },
+    {
+      "id": 17,
+      "prod_name": "Sardines",
+      "price": 276.53
+    },
+    {
+      "id": 18,
+      "prod_name": "Bacardi Limon",
+      "price": 147.42
+    },
+    {
+      "id": 19,
+      "prod_name": "Turnip - Wax",
+      "price": 645.22
+    },
+    {
+      "id": 20,
+      "prod_name": "Glass - Wine, Plastic, Clear 5 Oz",
+      "price": 544.87
+    }
+  ]
+}
