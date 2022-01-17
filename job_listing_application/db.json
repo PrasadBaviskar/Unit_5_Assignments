@@ -1,5 +1,6 @@
 {
   "users": [],
+  "jobs":[],
   "admin": {
     "username": "admin",
     "password": "password"
