@@ -1,6 +1,14 @@
 {
   "users": [],
-  "jobs":[],
+  "jobs": [
+    {
+      "job_title": "1",
+      "job_loc": "2",
+      "salary": "3",
+      "type": "4",
+      "id": 1
+    }
+  ],
   "admin": {
     "username": "admin",
     "password": "password"

@@ -1,14 +1,26 @@
 import { useContext } from "react";
+import { useNavigate } from "react-router";
 import { AuthContext } from "../Context/AuthContext";
 
 export const Login = () => {
-    const {handleToken} = useContext(AuthContext)
+  const { handleToken } = useContext(AuthContext);
+  const navigate = useNavigate()
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    handleToken("a1a1a1");
+    navigate(-1)
+  };
   return (
     <>
       <h1> Login here</h1>
-      <input type="text" placeholder="Email " /> <br /><br />
-      <input type="password" placeholder="Password " /><br /><br />
-      <button onClick={()=>handleToken("1a2cv3")} > Login </button>
+      <form onSubmit={handleSubmit}>
+        <input type="text" placeholder="Email " /> <br />
+        <br />
+        <input type="password" placeholder="Password " />
+        <br />
+        <br />
+        <input type="submit" />
+      </form>
     </>
   );
 };

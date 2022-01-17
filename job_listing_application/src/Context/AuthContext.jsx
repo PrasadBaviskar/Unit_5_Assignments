@@ -8,13 +8,13 @@ export const AuthContextProvider = ({ children }) => {
     setToken(token);
   };
 
-  // const [userType, setUserType] = useState("user");
-  // const handleUser = (type) => {
-  //   setUserType(type);
-  // };
+  const [userType, setUserType] = useState("user");
+  const handleUser = (type) => {
+    setUserType(type);
+  };
 
   return (
-    <AuthContext.Provider value={{ token, handleToken }}>
+    <AuthContext.Provider value={{ token, handleToken, userType, handleUser }}>
       {children}
     </AuthContext.Provider>
   );
