@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useState } from "react/cjs/react.development";
+import { JobBox } from "./JobBox";
 
 export const AdminDashboard = () => {
   const [data, setData] = useState({});
@@ -10,6 +11,8 @@ export const AdminDashboard = () => {
       .then((data) => data.json())
       .then((d) => setJobList(d));
   }, []);
+
+//   console.log(joblist[1].job_title);
 
   const submitData = (e) => {
     e.preventDefault();
@@ -33,9 +36,9 @@ export const AdminDashboard = () => {
   return (
     <div className="dashboard">
       {/* <h1>Admin Dashboard</h1> */}
-      <div className="addJobForm">
+      <div>
         <h3> Add Job </h3>
-        <form method="POST" onSubmit={submitData}>
+        <form method="POST" onSubmit={submitData} className="logForm">
           <input
             type="text"
             onChange={handleinput}
@@ -66,7 +69,11 @@ export const AdminDashboard = () => {
 
       <div>
         <h3> All Recruitements </h3>
-        <div className="jobs"></div>
+        <div className="jobs">
+          {/* {joblist.map((job) => {
+            return <JobBox key={job.id} data={job} />;
+          })} */}
+        </div>
       </div>
     </div>
   );

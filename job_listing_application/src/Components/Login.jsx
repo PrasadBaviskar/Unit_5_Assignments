@@ -4,22 +4,21 @@ import { AuthContext } from "../Context/AuthContext";
 
 export const Login = () => {
   const { handleToken } = useContext(AuthContext);
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const handleSubmit = (e) => {
     e.preventDefault();
     handleToken("a1a1a1");
-    navigate(-1)
+    navigate(-1);
   };
   return (
     <>
       <h1> Login here</h1>
-      <form onSubmit={handleSubmit}>
-        <input type="text" placeholder="Email " /> <br />
-        <br />
+      <form onSubmit={handleSubmit} className="logForm">
+        <input type="text" placeholder="Email " />
+
         <input type="password" placeholder="Password " />
-        <br />
-        <br />
-        <input type="submit" />
+
+        <input type="submit" value="Login" />
       </form>
     </>
   );

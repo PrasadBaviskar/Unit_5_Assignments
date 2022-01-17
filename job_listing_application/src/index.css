@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #E8EAF6;
 }
 
 code {
@@ -15,8 +16,17 @@ code {
 .navbar {
   display: flex;
   justify-content: center;
-  width: 80%;
+  /* width: 100%; */
   margin: auto;
+  background-color: #5C6BC0;
+  color: white;
+  padding: 5px;
+}
+
+.navbar>a{
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 .dashboard {
@@ -24,15 +34,50 @@ code {
   grid-template-columns: auto auto;
 }
 
-.addJobForm>form {
+.addJobForm > form {
   display: flex;
   flex-direction: column;
 }
 
-.addJobForm>form > input {
- /* margin: 10px; */
- width: 70%;
- margin: 10px auto;
+.addJobForm > form > input {
+  /* margin: 10px; */
+  width: 70%;
+  margin: 10px auto;
 }
 
+.AllJobs {
+  display: grid;
+  margin: auto;
+  width: 80%;
+  grid-template-columns: repeat(4, auto);
+}
+/* #E0F7FA */
+.jobbox{
+  background-color:#9FA8DA ;
+  padding: 5px;
+  margin: 7px;
+  border-radius: 3px;
+}
 
+.jobbox:hover{
+  box-shadow: 2px 2px 4px #5C6BC0;
+}
+
+.logForm{
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: auto;
+}
+
+.logForm > input{
+  height: 25px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.logForm > input[type="submit"]{
+  height: 35px;
+  margin: 5px;
+  padding: 5px;
+}

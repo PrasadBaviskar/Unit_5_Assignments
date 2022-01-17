@@ -13,13 +13,12 @@ export const AdminLogin = () => {
   return (
     <>
       <h1> Admin Login here</h1>
-      <form onClick={handleSubmit}>
-        <input type="text" placeholder="Email " /> <br />
-        <br />
+      <form onClick={handleSubmit} className="logForm">
+        <input type="text" placeholder="Email " />
+
         <input type="password" placeholder="Password " />
-        <br />
-        <br />
-        <input type="submit" value="handleSubmit" />
+
+        <input type="submit" value="Login" />
       </form>
     </>
   );

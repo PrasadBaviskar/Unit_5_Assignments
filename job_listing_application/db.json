@@ -2,11 +2,53 @@
   "users": [],
   "jobs": [
     {
-      "job_title": "1",
-      "job_loc": "2",
-      "salary": "3",
-      "type": "4",
+      "job_title": "Web Developer",
+      "job_loc": "Pune",
+      "salary": "6-7 CTC",
+      "type": "Remote",
       "id": 1
+    },
+    {
+      "job_title": "Adroid Developer",
+      "job_loc": "Pune",
+      "salary": "4-5 CTC",
+      "type": "Remote",
+      "id": 2
+    },
+    {
+      "job_title": "Fullstack Developer",
+      "job_loc": "Pune",
+      "salary": "8-10 CTC",
+      "type": "Remote",
+      "id": 3
+    },
+    {
+      "job_title": "System Engineer",
+      "job_loc": "Pune",
+      "salary": "3.5 CTC",
+      "type": "Office",
+      "id": 4
+    },
+    {
+      "job_title": "Testing Dept.",
+      "job_loc": "Pune",
+      "salary": "4.5 CTC",
+      "type": "Remote",
+      "id": 5
+    },
+    {
+      "job_title": "Masai",
+      "job_loc": "Chennai",
+      "salary": "6-8 CTC",
+      "type": "remote",
+      "id": 6
+    },
+    {
+      "job_title": "System Eng",
+      "job_loc": "Pune",
+      "salary": "5-8 CTC",
+      "type": "Office",
+      "id": 7
     }
   ],
   "admin": {
